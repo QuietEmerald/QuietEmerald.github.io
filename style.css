@@ -20,11 +20,12 @@
 body {
   max-width: 50em;
   display: grid;
-  place-items: center;
-  height: 100vh;
-  text-align: center;
   background: var(--base);
   color: var(--text);
   font-family: "Space Mono", monospace;
   font-size: large;
+}
+
+a {
+  color: #007bff;
 }
