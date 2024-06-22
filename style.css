@@ -1,0 +1,30 @@
+:root {
+  --base: #232b32;
+  --overlay: #20272d;
+  --surface: #1c2228;
+  --text: #fff;
+  --subtle: #e9eaeb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+body {
+  max-width: 50em;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  text-align: center;
+  background: var(--base);
+  color: var(--text);
+  font-family: "Space Mono", monospace;
+  font-size: large;
+}
